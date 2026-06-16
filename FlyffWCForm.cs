@@ -40,7 +40,7 @@ namespace FlyffUniverse_WebClient
             settings.CachePath = ArgumentManager.profilePath;
             settings.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 /CefSharp Browser" + Cef.CefSharpVersion;
             Cef.Initialize(settings);
-            chromeBrowser = new ChromiumWebBrowser("https://universe.flyff.com/play");
+            chromeBrowser = new ChromiumWebBrowser("https://ffcli.ruiwoo.cn/");
             this.Controls.Add(chromeBrowser);
             chromeBrowser.Dock = DockStyle.Fill;
 
